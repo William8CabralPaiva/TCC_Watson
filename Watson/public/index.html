@@ -1,0 +1,116 @@
+<html>
+  
+<head>
+  <title>Chatbot</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="audioplayer/audioplayer.css">
+  <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand navbar-light bg-light maxh-70" role="navigation">
+      <div class="container">
+          <div class="navbar-header d-flex align-items-center w-100">
+              <img class="ibm-watson img-fluid" src="./imagem/ibm-watson.png" />
+              <div class="collapse navbar-collapse " id="navbar-collapse-1">
+                  <ul class="nav navbar-nav d-flex justify-content-between flex-row w-25 pl-5">
+                    <li><a href="javascript:void(0)" id="exibe_chat">Chat</a></li>
+                    <li><a href="javascript:void(0)" data-toggle="modal" data-target="#modal_mic">Microfone</a></li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+    </nav>
+    <div class="chat-column">
+    <div class="col-10 mx-auto" id="chat"></div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="modal_mic" tabindex="-1" role="dialog" >
+        <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title">Opções de gravação</h2>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>Clique no Microfone para começar a gravar</p><br />
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="speech" value="Google" checked>
+                                Reconhecimento Nativo
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="speech" value="Watson">
+                                Watson
+                            </label>
+                        </div><br />
+                        <small><u>Obs:</u> Aperte uma vez para começar a gravar e a segunda para parar a gravação.</small>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                    <button type="button" class="btn btn-primary">Salvar</button>
+            </div>
+        </div>
+        </div>
+      </div>
+      
+    <!-- // -->
+      <!-- <div class="alinhar">
+          <div class="input-container">
+            <i id="icone" class="fa fa-microphone icon"></i>
+            <label for="textInput" class="inputOutline alinhar">
+              <input id="textInput" class="input responsive-column alinhar" autofocus placeholder="Diga algo" type="text">
+            </label>
+          </div>
+
+      </div> -->
+      <div id="formats"><!--Format: start recording to see sample rate--></div>
+      <section class="navbar-expand bg-light clear-both barra-baixo" role="navigation">
+          <div class="container">
+              <div class="panel-body w-100">
+                  <div class="col-md-12">
+                      <div class="d-flex justify-content-between">
+                        <div class="d-flex w-90">
+                            <input type="text" id="mensagemInput" class="form-control" placeholder="Mensagem" autofocus>
+                            <span class="input-group-btn float-watson">
+                                <button id="enviar_mensagem" class="btn btn-default borda-cinza" type="button">></button>
+                            </span>
+                        </div>
+                           <span class="input-group-btn">
+                              <button id="gravar_audio" class="btn btn-default borda-cinza" type="button"
+                                      data-toggle="popover" data-placement="top"  data-container="body"
+                                      data-content="Gravando...">
+                                  <i  class="fa fa-microphone"></i>
+                              </button>
+                            </span>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </section>	
+
+  </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+  <script src="https://cdn.rawgit.com/mattdiamond/Recorderjs/08e7abd9/dist/recorder.js"></script>
+  <script src="js/recorder.js"> </script>
+  <script src="js/speech_recognition.js"></script>
+  <script src="js/constantes.js"> </script>
+  <script src="js/mercadoLivre.js"> </script>
+  <script src="js/script.js"></script>
+  <script src="js/microfone.js"></script>
+  <script src="js/initial_config.js"> </script>
+  <script src="audioplayer/audioplayer.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "ibm-watson-speech-to-text",
+  "private_key_id": "445fa4318be7778c6960a3755fc2cdd9c3dd3443",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDLM+Lq9vE0kp66\nRXi6YmtDvzIXG08qdFE5pMTxqmHj1LDbsIaibvPntgty7pGtY+1IM1Zkfus422aX\nUnY1WUGcpIg8Z3jqdst7TfYZV2LB4BQmPy+6itnDG6FVNo7bpA1YxEXCcEM/aVi/\nuSakANxKWVthR7vQXIU+cyFjc/RD145+julYV7SRp4BliZ/FhQ+gVeKqcbv1e7rS\nCDr+65McBNsS82k86Zan9w87qpqQJqc/G32k06lU5txejKfNVM5BU1ATCGJ5gUao\nmiJNv9YRZxxP7VrRNrwZwuB30+yFDiLl9WkNy1G00ZU5h13xW6qCOLc2uuR1cTLS\nNo6cSGMrAgMBAAECggEABhWb6mMb1cDjOg5jx7Hba4ZPkcRmJXp56Tmum4ONMQvh\nR1mAhob6gpQTI5v6HxWkKmqM8/QUxzl6Q/bVywzqZ8HnJGb1N7haqS+2Oil8fmoG\nguO+Toox4oD3t16XzVGa8Iyb9fj9uKTuYbZVWqu5AJZMcqq+xzINZaAdILUa3CwL\n/02m20Luq7DgpdHmA0Z8kesxuwydES/3xLCc+oao5E0wVXPoFWn0lgy9a78g24tG\nWivxaLHdl+38U9TpDIFCQewGEP+fQd1v08w07u1m8Qf4RSvxBqCL3VwD7R/VcL3I\nodLlYhAdb9J948PsTXYICkFjNEXRs3tyEBP4qBUyXQKBgQDovbDrE4U6kebmpc5T\nhlb0p3Ug6OBTwlltrjVPgxHe3zGxMP+5zL6eESppXZp+honv9ITDoKeY1f5QGhXY\nInmPCVyZQ3WMWjDWq7nl37/JwoSiiDi1oKBBj/8O0++8SzQqniPx0X4n82kXAB+B\ng94gbOY4A+TwaBOc257AZKtT7wKBgQDfgoE31hzR/uNX0BFXJG04m6w5SZBO3K6k\nijzDU0aLleQI9Yi7TY/RkSRp39uY7okJISKuMSnqGR4C68cz6fUAvJX47yJo/MnL\n9sAEtRrskNtaBAJKgkOTK+hKDZJwbPiVVKOvDliT+uNvcbOtYh9KLC0zpMLR4Ok8\n+Vz9Si64hQKBgA8BE6PECWXCPDGIZOnLklWJaiqp+LRNpjhE79jlaUSF/Q0gTIws\n3+kO0D4ks64OfFwE1n5KICPhP9joJZpedpm7D8YtrClVMyrTvVNNfm7CZIyZ3ZYP\n+eTgJKBPF3h7HKzWrxiK2eg3cAH0lxNhbfOHMbxQu/SnsQP+wJhEpSrvAoGBALBe\n6B6qe5WN/9H0YyqTmQhZd17BWPmSFNHML8SmOv286vPS5PGAc+OYF9bgCgY0/LfS\niO5R51ROO6tsaIXjsSzCo8mK0mlsSMUFUmKkkrloWV8/2Jr5Dd/dfvCoowzKQKJ9\n5qgltuoWyU/Qtks0KaK7F3QwKHe7dfFiiOlql1GNAoGBAIj93PavNJjHFdYP7kVA\nZzJjPGHkVDn459ca65XYtNTFkSM4Qy0tkJA5CN0y7qaARMBB0iMrfAUg/iWiqyiq\nv40XjYiF75Hkc9xQAP7dCbYE6f2JHi2FW/FAkau3srjvkTJRXXPctbpdrSaCDuRz\nD9GreRn5AQpgDZi9aol7JFsq\n-----END PRIVATE KEY-----\n",
+  "client_email": "watson@ibm-watson-speech-to-text.iam.gserviceaccount.com",
+  "client_id": "106769986086350640828",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/watson%40ibm-watson-speech-to-text.iam.gserviceaccount.com"
+}
